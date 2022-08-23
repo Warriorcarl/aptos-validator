@@ -1,10 +1,10 @@
 #!/bin/bash
 
 
-CONFYAML="roomit-aptos-checker"
-CONFYAMLPRETTY="RoomIT Aptos Nodes"
+CONFYAML="warriorcarl-aptos-checker"
+CONFYAMLPRETTY="warriorcarl Aptos Nodes"
 KINDNODE="validator" #validator or fullnode
-URL="http://cikuray.roomit.xyz/"
+URL="http://warriorcarl.duckdns.org/"
 CHAINID=43
 OPTIONS=$1
 
