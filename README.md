@@ -9,7 +9,7 @@ Used DNS
 
 ## Install Environment
 ```
-git clone git@github.com:luneareth/aptos-validator.git
+git clone https://github.com/warriorcarl/aptos-validator.git
 mv aptos-validator APTOS
 cd APTOS/bin
 ```
@@ -75,14 +75,15 @@ bash aptosh.sh update client
 ## Install monitoring 
 
 ```
-su -
-monitoring-stack deploy prometheus
-monitoring-stack deploy grafana
+cd ~/APTOS/bin
+bash monitoring-stack.sh deploy prometheus
+bash monitoring-stack.sh deploy grafana
 
 ```
 
 ## Install NHC
 ```
+cd ~/APTOS/nhc
 bash nhc.sh start
 ```
 
